@@ -14,6 +14,8 @@
 		95B53B6525235F6D00F0E258 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B53B6425235F6D00F0E258 /* News.swift */; };
 		95B53B6A252360EF00F0E258 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B53B69252360EF00F0E258 /* API.swift */; };
 		95B53B6E252364BC00F0E258 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B53B6D252364BC00F0E258 /* NetworkManager.swift */; };
+		95B53B712523686F00F0E258 /* NewsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B53B702523686F00F0E258 /* NewsViewModel.swift */; };
+		95B53B74252369AD00F0E258 /* NewsListVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B53B73252369AD00F0E258 /* NewsListVM.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		95B53B6425235F6D00F0E258 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
 		95B53B69252360EF00F0E258 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		95B53B6D252364BC00F0E258 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		95B53B702523686F00F0E258 /* NewsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewModel.swift; sourceTree = "<group>"; };
+		95B53B73252369AD00F0E258 /* NewsListVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListVM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +95,8 @@
 		95B53B6225235DAA00F0E258 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				95B53B702523686F00F0E258 /* NewsViewModel.swift */,
+				95B53B73252369AD00F0E258 /* NewsListVM.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -188,6 +194,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				95B53B6525235F6D00F0E258 /* News.swift in Sources */,
+				95B53B74252369AD00F0E258 /* NewsListVM.swift in Sources */,
+				95B53B712523686F00F0E258 /* NewsViewModel.swift in Sources */,
 				95B53B5325235CF600F0E258 /* ContentView.swift in Sources */,
 				95B53B6E252364BC00F0E258 /* NetworkManager.swift in Sources */,
 				95B53B6A252360EF00F0E258 /* API.swift in Sources */,
