@@ -9,11 +9,11 @@ import Foundation
 
 class NetworkManager {
     
-    private let baseUrlString = "https://newsapi.org/v2"
-    private let usTopHeadline = "top-headlines?country=us"
+    private let baseUrlString = "http://newsapi.org/v2/"
+    private let usTopHeadline = "top-headlines?sources=techcrunch"
     
     func getNews(completion: @escaping (([News]?) -> Void)) {
-        let urlString = "\(baseUrlString)\(usTopHeadline)&apikey=\(API.key)"
+        let urlString = "\(baseUrlString)\(usTopHeadline)&apiKey=\(API.key ?? "")"
         
         guard let url = URL(string: urlString) else {
             completion(nil)

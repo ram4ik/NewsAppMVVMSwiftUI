@@ -8,5 +8,6 @@
 import Foundation
 
 struct API {
-    static let key = ""
+    
+    static var key = UserDefaults.standard.string(forKey: "APIKEY")
 }
