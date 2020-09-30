@@ -38,7 +38,14 @@ struct NewsCell: View {
             Text(news.description)
                 .font(.caption)
                 .foregroundColor(.black)
-        }.padding(.vertical)
+        }
+        .padding(.vertical)
+        .sheet(isPresented: $isPresented) {
+            NewsArticleWebView(newsUrl: self.news.url)
+        }
+        .onTapGesture {
+            isPresented.toggle()
+        }
     }
 }
 
